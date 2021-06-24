@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-mvcdemo-765AE837-5205-4B81-A083-E115A3D2933F</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7"/>
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="5.1.0"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.2"/>
+  </ItemGroup>
+</Project>
