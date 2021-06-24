@@ -22,6 +22,7 @@ namespace mvcdemo.Controllers
         {
             ViewBag.Message = "hello this is a message from home controller";
             ViewBag.Message2 = "hello this is to check whether the server is reloading automatically  after hitting ctrl +s ,or not";
+            ViewBag.Message3 = "HEY THIS MESSAGE IS TO CHECK WHETHER THE IGNORED FILES ARE ATTACHED TO THE GITHUB OR NOT";
             return View();
         }
 
