@@ -21,6 +21,7 @@ namespace mvcdemo.Controllers
         public IActionResult Index()
         {
             ViewBag.Message = "hello this is a message from home controller";
+            ViewBag.Message2 = "hello this is to check whether the server is reloading automatically  after hitting ctrl +s ,or not";
             return View();
         }
 
